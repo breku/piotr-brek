@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
     selector: 'jb-content',
@@ -54,7 +54,7 @@ import {Component} from '@angular/core';
             </div>
         </div>
     `,
-    styleUrls: ['../scss/jb-content.scss']
+    styleUrls: ['../../scss/jb-content.scss']
 })
 export class JbContent {
 }
