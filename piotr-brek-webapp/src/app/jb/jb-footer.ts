@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
     template: `
         <div class="jb-footer-separation"></div>
         <div class="jb-footer-text">
-            <div class="jb-footer-element jb-accent">mgr inż Piotr Bręk</div>
+            <div class="jb-footer-element jb-accent">Drogi projektowanie i nadzór mgr inż. Piotr Bręk</div>
             <hr>
             <div class="jb-footer-element">ul. Parkowa 7/3</div>
             <div class="jb-footer-element">78-600 Wałcz</div>

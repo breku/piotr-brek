@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
     selector: 'jb-navbar',
     template: `
         <div class="jb-navbar">
-            <div class="jb-nav-element">mgr inż Piotr Bręk</div>
+            <div class="jb-nav-element">Drogi projektowanie i nadzór mgr inż. Piotr Bręk</div>
         </div>
     `,
     styleUrls: ['../../scss/jb-navbar.scss']
