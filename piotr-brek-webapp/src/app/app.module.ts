@@ -7,12 +7,16 @@ import { JbContent } from './jb/jb-content';
 import { JbFooter } from './jb/jb-footer';
 import { AgmCoreModule } from '@agm/core';
 import { JbGoogleMap } from './jb/jb-google-map';
+import { JbContentOffer } from './jb/jb-content-offer';
+import { JbContentOfferCell } from './jb/jb-content-offer-cell';
 
 @NgModule({
     declarations: [
         AppComponent,
         JbNavbar,
         JbContent,
+        JbContentOffer,
+        JbContentOfferCell,
         JbFooter,
         JbGoogleMap
     ],

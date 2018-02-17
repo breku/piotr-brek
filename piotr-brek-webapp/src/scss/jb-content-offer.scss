@@ -1,0 +1,81 @@
+@import "variables";
+
+$circle-radius: 50px;
+
+.headline{
+	margin-bottom:30px;
+	font-weight: 900;
+
+	@media screen and (max-width: $small-screen) {
+		text-align: center;
+
+	}
+
+}
+
+.offer-row {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 30px;
+
+	@media screen and (max-width: $small-screen) {
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 0px;
+	}
+}
+
+.offer-cell-wrapper {
+	display: flex;
+	align-items:center;
+
+	.offer-cell {
+		width: 220px;
+		@media screen and (max-width: $small-screen) {
+			width: 400px;
+
+		}
+
+	}
+
+	@media screen and (max-width: $small-screen) {
+		margin-bottom: 30px;
+	}
+
+
+	.offer-cell-image {
+		margin-right: 10px;
+		border-radius: 50%;
+		background: #E09F74;
+		height: $circle-radius * 2;
+		width: $circle-radius * 2;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.offer-cell-image-documents {
+		background-image: url("../img/documents.png");
+	}
+
+	.offer-cell-image-chat {
+		background-image: url("../img/chat.png");
+	}
+
+	.offer-cell-image-finance {
+		background-image: url("../img/finance.png");
+	}
+
+	.offer-cell-image-road-icon {
+		background-image: url("../img/road-icon.png");
+	}
+
+	.offer-cell-image-tools {
+		background-image: url("../img/tools.png");
+	}
+
+}
+
+
+
+
+

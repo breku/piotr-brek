@@ -1,4 +1,4 @@
-import { AfterViewInit, Component } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
     selector: 'jb-footer',
@@ -18,13 +18,6 @@ import { AfterViewInit, Component } from '@angular/core';
     `,
     styleUrls: ['../../scss/jb-footer.scss']
 })
-export class JbFooter implements AfterViewInit {
+export class JbFooter {
 
-    ngAfterViewInit(): void {
-        // var uluru = {lat: -25.363, lng: 131.044};
-        // var map = new google.maps.Map(document.getElementById('map'), {
-        //     zoom: 4,
-        //     center: uluru
-        // });
-    }
 }

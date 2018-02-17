@@ -2,12 +2,11 @@
 
 .jb-footer-separation {
 	height: $footer-separation-height;
-	background-color: $footer-separation-color;
+	background: $footer-separation-color;
 	width: 100%;
 }
 
 .jb-footer-text {
-
 	line-height: 1.6;
 	font-size: 18px;
 	color: $text-color;
@@ -18,6 +17,12 @@
 		margin-top: 10px;
 		margin-bottom: 10px;
 	}
+
+	@media screen and (max-width: $small-screen) {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
 }
 
 .jb-accent {
