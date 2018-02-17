@@ -31,6 +31,12 @@
 	padding-left: 10px;
 	padding-right: 10px;
 
+	> p {
+		text-align: justify;
+
+	}
+
+
 
 	@media screen and (max-width: $small-screen) {
 		padding-left: 30px;
