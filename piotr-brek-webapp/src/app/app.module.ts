@@ -9,6 +9,7 @@ import { AgmCoreModule } from '@agm/core';
 import { JbGoogleMap } from './jb/jb-google-map';
 import { JbContentOffer } from './jb/jb-content-offer';
 import { JbContentOfferCell } from './jb/jb-content-offer-cell';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
     declarations: [
@@ -24,7 +25,8 @@ import { JbContentOfferCell } from './jb/jb-content-offer-cell';
         BrowserModule,
         AgmCoreModule.forRoot({
             apiKey: 'AIzaSyB9eLfRF8NKRELOCQW_dTgbaPYP_aQbP74'
-        })
+        }),
+        BrowserAnimationsModule
     ],
     providers: [],
     bootstrap: [AppComponent]
