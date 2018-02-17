@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { AfterViewInit, Component } from '@angular/core';
 
 @Component({
     selector: 'jb-footer',
@@ -13,14 +13,18 @@ import { Component } from '@angular/core';
                 <div class="jb-footer-element">tel: +48 661 550 777</div>
                 <div class="jb-footer-element">email: piotrbrek61@gmail.com</div>
             </div>
-            <div class="jb-footer-map">
-                <iframe width="600" height="300" frameborder="0" style="border:0"
-                        src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJs1PB5ZNdAUcRycXZxwPaniM&key=AIzaSyBio52dNhb0aU9SWY_rESJm9dedw8Vklpc"
-                        allowfullscreen></iframe>
-            </div>
         </div>
+        <jb-google-map></jb-google-map>
     `,
     styleUrls: ['../../scss/jb-footer.scss']
 })
-export class JbFooter {
+export class JbFooter implements AfterViewInit {
+
+    ngAfterViewInit(): void {
+        // var uluru = {lat: -25.363, lng: 131.044};
+        // var map = new google.maps.Map(document.getElementById('map'), {
+        //     zoom: 4,
+        //     center: uluru
+        // });
+    }
 }
