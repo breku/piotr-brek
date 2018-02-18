@@ -27,6 +27,6 @@ export class JbContentOfferCell {
     text: string;
 
     @Input()
-    private image: string;
+    image: string;
 
 }
