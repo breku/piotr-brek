@@ -10,13 +10,16 @@
 	vertical-align: middle;
 	display:flex;
 	align-items:center;
-	padding-left: 30px;
+
 }
 
 .jb-nav-element{
+	padding-left: 30px;
+	padding-right: 30px;
 	color: $accent-color;
 	font-size: larger;
 	font-weight: 900;
+	word-wrap: break-word;
 }
 
 

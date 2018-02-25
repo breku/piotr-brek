@@ -4,7 +4,9 @@ import { Component } from '@angular/core';
     selector: 'jb-content',
     template: `
         <div class="jb-content">
-            <div class="jb-landing-image"></div>
+            <div class="jb-landing-image-wrapper">
+                <div class="jb-landing-image"></div>
+            </div>
             <div class="jb-text">
                 <p>
                     Działalność rozpoczęta została w 2018r. Zapewniam kompleksową obsługę inwestycji drogowych. Sprawuję

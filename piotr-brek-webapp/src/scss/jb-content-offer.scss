@@ -6,9 +6,8 @@ $circle-radius: 50px;
 	margin-bottom:30px;
 	font-weight: 900;
 
-	@media screen and (max-width: $small-screen) {
+	@media screen and (max-width: $screen-l) {
 		text-align: center;
-
 	}
 
 }
@@ -18,7 +17,7 @@ $circle-radius: 50px;
 	justify-content: space-evenly;
 	margin-bottom: 30px;
 
-	@media screen and (max-width: $small-screen) {
+	@media screen and (max-width: $screen-l) {
 		flex-direction: column;
 		align-items: center;
 		margin-bottom: 0px;
@@ -29,16 +28,28 @@ $circle-radius: 50px;
 	display: flex;
 	align-items:center;
 
+	@media screen and (max-width: $screen-xs) {
+		flex-direction: column;
+	}
+
 	.offer-cell {
 		width: 220px;
-		@media screen and (max-width: $small-screen) {
+		@media screen and (max-width: $screen-l) {
 			width: 400px;
+		}
 
+		@media screen and (max-width: $screen-m) {
+			width: 300px;
+		}
+
+		@media screen and (max-width: $screen-s) {
+			width: 100%;
+			margin-top: 10px;
 		}
 
 	}
 
-	@media screen and (max-width: $small-screen) {
+	@media screen and (max-width: $screen-l) {
 		margin-bottom: 30px;
 	}
 

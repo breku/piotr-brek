@@ -4,22 +4,46 @@
 	background-color: $content-background-color;
 }
 
+.jb-landing-image-wrapper {
+	.jb-landing-image {
+		background-image: url('../img/road.jpg');
+		background-repeat: no-repeat;
+		background-position: top center;
+		background-attachment: fixed;
+		background-size: contain;
 
-.jb-landing-image {
-	background-image: url('../img/road.jpg');
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-attachment: fixed;
-	background-size: cover;
-	height: 750px;
+		height: 750px;
 
-	@media screen and (max-width: $medium-screen) {
-		height: 600px;
+		// <= 1366
+		@media screen and (max-width: $screen-xl) {
+			height: 500px;
+		}
+
+		// <= 1080
+		@media screen and (max-width: $screen-l) {
+			height: 450px;
+		}
+
+		// <= 800
+		@media screen and (max-width: $screen-m) {
+			height: 350px;
+		}
+
+		// <= 600
+		@media screen and (max-width: $screen-s) {
+			background-image: url('../img/road-vertical.jpg');
+			height: 300px;
+		}
+
+		// <= 400
+		@media screen and (max-width: $screen-xs) {
+			background-image: url('../img/road-vertical.jpg');
+			height: 250px;
+		}
+
+
 	}
 
-	@media screen and (max-width: $small-screen) {
-		height: 500px;
-	}
 }
 
 .jb-text {
@@ -36,9 +60,7 @@
 
 	}
 
-
-
-	@media screen and (max-width: $small-screen) {
+	@media screen and (max-width: $screen-l) {
 		padding-left: 30px;
 		padding-right: 30px;
 	}
